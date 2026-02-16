@@ -1,0 +1,13 @@
+# Ignore build artifacts
+build/
+deb_package/
+__pycache__/
+*.spec
+
+# Ignore logs (User data should not be public)
+logs/
+*.log
+session_*.txt
+
+# Ignore system files
+.DS_Store
