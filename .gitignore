@@ -1,10 +1,15 @@
-# Ignore build artifacts
+# Ignore build artifacts (The "oven" leftovers)
 build/
-deb_package/
+dist/
 __pycache__/
 *.spec
 
-# Ignore logs (User data should not be public)
+# Ignore installers (We keep these in releases, not source code)
+deb_package/
+*.deb
+*.zip
+
+# Ignore logs (User privacy)
 logs/
 *.log
 session_*.txt
